@@ -3,7 +3,7 @@ from langchain_openrouter import ChatOpenRouter
 from langchain_core.messages import SystemMessage, HumanMessage
 from eval import get_reports
 
-os.environ["OPENROUTER_API_KEY"] = "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"
+os.environ["OPENROUTER_API_KEY"] = ""
 model = ChatOpenRouter(
     model="google/gemma-4-26b-a4b-it:free",
     temperature=0,

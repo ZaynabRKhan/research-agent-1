@@ -12,9 +12,9 @@ from langchain_chroma import Chroma
 from langchain_core.documents import Document
 from openrouter.errors import TooManyRequestsResponseError
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
-os.environ["OPENROUTER_API_KEY"] = "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"
-OPEN_ALEX_API_KEY = "bhxxpyMQdDYpnQkDjHn4cc"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
+os.environ["OPENROUTER_API_KEY"] = ""
+OPEN_ALEX_API_KEY = ""
 # llm = HuggingFaceEndpoint(
 #     repo_id = "meta-llama/Llama-3.1-8B-Instruct",
 #     temperature = 0,

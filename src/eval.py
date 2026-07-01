@@ -27,8 +27,8 @@ benchmark = [
 ]
 print(len(benchmark))
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
-OPEN_ALEX_API_KEY = "bhxxpyMQdDYpnQkDjHn4cc"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
+OPEN_ALEX_API_KEY = ""
 
 model = ChatOpenRouter(
     model="google/gemma-4-26b-a4b-it:free",
