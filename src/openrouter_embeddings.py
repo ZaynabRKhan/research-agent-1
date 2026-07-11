@@ -1,6 +1,5 @@
 from langchain_core.embeddings import Embeddings
 import requests, json
-# os.environ["OPENROUTER_API_KEY"] = "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"
 class OpenRouterEmbeddings(Embeddings):
     def __init__(self, api_key, model):
         self.api_key = api_key
